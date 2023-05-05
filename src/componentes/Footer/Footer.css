@@ -1,0 +1,44 @@
+.footer{
+    background-color: #6278f7;
+    background-image: url("../../../public/img/fundo.png"); 
+    height: 8rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    }
+
+.footer .social,
+.footer .autor,
+.footer .logo{
+    display: flex;
+    align-items: center
+}
+
+.footer .social {
+    margin-left: 1rem; 
+}
+
+.footer .social img{
+    padding: 0 1rem 0 1rem;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.footer img {
+    max-height: 35px;
+    width: auto;
+}
+
+.footer .autor{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto; 
+    margin-right: 1rem;
+    
+}
+
+.footer .logo{
+  margin-left: auto;
+}
