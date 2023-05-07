@@ -24,6 +24,7 @@ const Formulario = (props) =>{
         setCargo('')
         setImagem('')
         setTime('')
+
     }
 
     return(
@@ -35,6 +36,7 @@ const Formulario = (props) =>{
                 label="Nome" 
                 placeholder="Informe seu nome"
                 valor={nome}
+                errorMessage="Preencha o nome"
                 aoAlterado={valor =>setNome(valor)}
             />
             <CampoTexto 
@@ -42,6 +44,7 @@ const Formulario = (props) =>{
                 label="Cargo" 
                 placeholder="Informe seu cargo"
                 valor={cargo}
+                errorMessage="Preencha o cargo"
                 aoAlterado={valor =>setCargo(valor)}
             />
             <CampoTexto 
@@ -55,6 +58,7 @@ const Formulario = (props) =>{
                 label="Time" 
                 itens = {props.times}
                 valor = {time}
+                errorMessage="Selecione o Time"
                 aoAlterado={valor => setTime(valor)}
             />
             <Botao>Criar Card</Botao>

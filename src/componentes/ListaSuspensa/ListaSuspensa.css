@@ -13,3 +13,17 @@
     padding: 24px;
     box-sizing: border-box;
 }
+.lista-suspensa span{
+    font-size: 15px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+select option[value=""], select:not [focused="true"]{
+    border: 1px solid red;
+}
+
+select option[value=""], select option:not([value]) ~ span{
+    display: block;
+}
