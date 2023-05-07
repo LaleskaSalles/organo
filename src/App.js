@@ -50,7 +50,6 @@ function App() {
     setColaboradores([...colaboradores, colaborador])
   }
 
-
   return (
     <div className="App">
       <Banner/>

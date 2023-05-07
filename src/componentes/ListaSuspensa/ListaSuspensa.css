@@ -20,10 +20,3 @@
     display: none;
 }
 
-select option[value=""], select:not [focused="true"]{
-    border: 1px solid red;
-}
-
-select option[value=""], select option:not([value]) ~ span{
-    display: block;
-}

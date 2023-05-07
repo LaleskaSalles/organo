@@ -5,10 +5,10 @@
     color: white;
     display: flex;
     justify-content: center;
-    
-}
+    }
 
 .footer .itens{
+    background-image: url("../../../public/img/fundo.png"); 
     width: 70%;
     display: flex;
 }
